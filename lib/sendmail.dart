@@ -22,7 +22,7 @@ class _SendMailFromLocalHostState extends State<SendMailFromLocalHost> {
     // Create our email message.
     final message = Message()
       ..from = Address(username)
-      ..recipients.add('signaturesoftit@gmail.com') //recipent email
+      ..recipients.add('abc@gmail.com') //recipent email
       //..ccRecipients.addAll(['destCc1@example.com', 'destCc2@example.com']) //cc Recipents emails
       //..bccRecipients.add(Address('bccAddress@example.com')) //bcc Recipents emails
       ..subject =
@@ -62,7 +62,7 @@ class _SendMailFromLocalHostState extends State<SendMailFromLocalHost> {
     );
   }
 
-  showToast(String msg, {int duration, int gravity}){
+  void showToast(String msg, {int duration, int gravity}){
     Toast.show(msg, context,duration: duration,gravity: gravity);
   }
 }
