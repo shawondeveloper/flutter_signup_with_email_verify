@@ -88,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // Create our email message.
     final message = Message()
       ..from = Address(username)
-      ..recipients.add('signaturesoftit@gmail.com') //recipent email
+      ..recipients.add('abc@gmail.com') //recipent email
       //..ccRecipients.addAll(['destCc1@example.com', 'destCc2@example.com']) //cc Recipents emails
       //..bccRecipients.add(Address('bccAddress@example.com')) //bcc Recipents emails
       ..subject =
