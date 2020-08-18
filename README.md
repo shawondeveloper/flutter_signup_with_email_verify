@@ -1,5 +1,4 @@
-# flutter_signup_with_email_verify
-
+# flutter complete signup with email verify
 A new Flutter project.
 
 ## Getting Started
